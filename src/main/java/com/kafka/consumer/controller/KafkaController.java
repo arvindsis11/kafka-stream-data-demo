@@ -32,5 +32,6 @@ public class KafkaController {
 		kafkaRepo.deleteAll();
 		return ResponseEntity.status(HttpStatus.OK).body("deleted all events");
 	}
+	//hello kafka
 
 }
